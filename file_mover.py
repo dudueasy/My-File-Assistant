@@ -7,7 +7,7 @@ print('欢迎使用apolo的文件小助手')
 # 开启循环
 while True:
     # 获取工作目录
-    user_input = input("请输入工作目录:\n")
+    user_input = input("请输入工作目录的绝对路径:\n")
     print(user_input)
 
     if not os.path.isdir(user_input):
